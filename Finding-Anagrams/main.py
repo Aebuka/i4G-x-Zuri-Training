@@ -8,7 +8,7 @@ from collections import Counter
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
-        if (Counter(word) == Counter(anagram)):
+        if (Counter(word.casefold()) == Counter(anagram.casefold())):
             print("True")
         # elif(Counter(word) != Counter(anagram)):
         #         print("False")
