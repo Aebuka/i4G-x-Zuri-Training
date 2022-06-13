@@ -27,7 +27,6 @@ def play ():
     players_move = input("R for rock ,P for Paper,S for scissors : \n").capitalize()
     computer = random.choice(game_options[0:2])
 
-# while True:
     print(rock_paper_scissors(players_move,computer))
     players_move = input("would you like to play again? y/n \n").capitalize()
     if players_move == "N":
@@ -38,10 +37,4 @@ def play ():
         players_move = input("Wrong input. Try again, Enter y/n \n")
 print("Rules of the Game: \n" + "Rock vs Paper -> Paper wins \n" + "Rock vs Scissor -> Rock wins \n" + "Paper vs Scissor -> Scissor wins \n")
 play()
-# run = True
-# while run == True:
-
-# while
-    
-    
 
